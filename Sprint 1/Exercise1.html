@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise 1 </title>
+    
+        <link rel="stylesheet" href="Exercise1.css">
+    
+        <script>
+            function getLocation() {
+                alert("Survey received!  Thank you!");
+            }
+        </script>
+</head>
+    <body>
+
+        <h2>Responsive Four Entry Layout Using a Flexbox</h2>
+        <p><strong>Resize the browser window to see the responsive effect.</strong> </p>
+        <p>On screens that are 992px wide or less, the columns will resize from four columns to two columns. </p>
+        <p>On screens that are 600px wide or less, the columns will stack on top of each other instead of next to each other.</p>
+
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <p>Link:</p>
+            <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a></p>
+        </div>
+        <div class="myflexboxColumn">
+            <p>Image:</p>
+            <img src="logo.jpg" alt="nelnet" width=200 length=200>
+        </div>
+        <div class="myflexboxColumn">
+            <p>Video:</p>
+            <video width="320" height="240" controls>
+                <source src="bearMovie.mp4" type="video/mp4">
+            </video>     
+        </div>
+        <div class="myflexboxColumn"> 
+            <p>Geo location:</p>
+            <button onclick="getLocation()">Get Location</button>
+            <p id="demo"></p>
+            <script>
+                var x = document.getElementById("demo");
+                function getLocation() {
+                  if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                  } else {
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                  }
+                }
+                
+                function showPosition(position) {
+                  x.innerHTML = "Latitude: " + position.coords.latitude +
+                  "<br>Longitude: " + position.coords.longitude;
+                }
+            </script>
+
+        </div>
+      </div>
+
+    </body>
+     
+ 
+</html>

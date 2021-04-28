@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Sruvey Day 1</title>
+
+    <link rel="stylesheet" href="survey.css">
+
+
+</head>
+
+<body>
+    <form name ="surveyForm" onsubmit=" myFunction()">
+
+    
+    <div class="surveyClass">
+        <h1>Student Survey</h1>
+        <p>What's your name?</p>
+            <h2>
+            <input type="text" id="fname" name="fname"  required><br>
+        </h2>
+    </div>
+    <div class="surveyClass">
+        
+        <p>What's your email address?</p>
+        <input type="email" id="emailAdd" name="emailAdd" required><br>
+    
+</div>
+<div class="surveyClass">
+        
+    <p>What's your subject?</p>
+    <select name="classEnroll">
+        <option value="Full time">Full time</option>
+        <option value="Half Time">Half time</option>
+        <option value="Weekend">Weekend</option>
+        required</select>
+
+</div>
+<div class="surveyClass">
+    <p>What's your gender?</p>
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  required
+</div>
+<div class="surveyClass">
+    <p>What's your subject?</p>
+    <input type="checkbox" id="SubjectEnrolled1" name="SubjectEnrolled1" value="Math">
+    <label for="SubjectEnrolled1"> Math</label><br>
+    <input type="checkbox" id="SubjectEnrolled2" name="SubjectEnrolled2" value="Science">
+    <label for="SubjectEnrolled2"> Science</label><br>
+    <input type="checkbox" id="SubjectEnrolled3" name="SubjectEnrolled3" value="English">
+    <label for="SubjectEnrolled3"> English</label>  
+</div>
+
+
+<div class="surveyClass">
+    <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+</div>
+    <script>
+        function myFunction() {
+          var x =document.getElementById("fname").value;
+         // if (x!="")
+          alert("Survey Submitted! " + x);
+        }
+    </script>  
+
+  
+</form>
+
+</body>
+</html>

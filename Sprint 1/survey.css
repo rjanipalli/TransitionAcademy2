@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+  }
+  
+  p {
+    color: rgb(84, 131, 41);
+    margin-left: 20px;
+  }
+
+  .surveyClass {
+    color: red;
+    margin-right: 20px;
+    
+  }
+
+  h1 {
+    color: rgb(84, 131, 41);
+    text-align: center;
+    
+  }
+  h2 {
+    color: rgb(84, 131, 41);
+    text-align: center;
+    
+  }
