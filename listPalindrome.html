@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="listPalindrome.css">
+        <script src="listPalindrome.js"></script>
+
+        
+</head>
+    <body>
+        
+        <h1> Identify Palindrome </h1>
+        <p1>This page identifies Palindromes</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <input type="text" id="text1" name="text1"  required><br>
+                    <input type="number" id="number1" name="number1" required><br>
+                    <input onclick="addToList()" type="button" value="Add to the List">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                <p>List 1</p>
+                <table
+                    id="listOne">
+                </table><br>
+                <input onclick="clearList('listOne')" type="button" value="Clear the List">
+                
+            </div>
+            <div class="myflexboxColumn2">
+                <p>List 2</p>
+                <table
+                    id="listTwo">
+                </table><br>
+                <input onclick="clearList('listTwo')" type="button" value="Clear the List">
+                    
+            </div>
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>
