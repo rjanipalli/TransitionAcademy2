@@ -5,40 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Challenge 1 </title>
     
-        <link rel="stylesheet" href="listBuilder.css">
-        <script src="listBuilder.js"></script>
+        <link rel="stylesheet" href="centralCalc.css">
+        <script src="centralCalc.js"></script>
 
         
 </head>
     <body>
         
-        <h1> List Builder</h1>
-        <p1>This page builds the lists</p1>
+        <h1> Mean Mode Median Calculator</h1>
+        <p1>This page calculates Mean, Mode & Median of given numbers for a range of number</p1>
         
 
         <div class="myflexboxRow2">
             <div class="myflexboxColumn2">
                 <form name="form1">
-                    <input type="text" id="text1" name="text1"  required><br>
-                    <input type="number" id="number1" name="number1" required><br>
-                    <input onclick="addToList()" type="button" value="Add to the List">
+                    <p2>Enter Min Value:</p2><br>
+                    <input type="number" id="minNumber" name="minNumber" required><br>
+                    <p2>Enter Max Value:</p2><br>
+                    <input type="number" id="maxNumber" name="maxNumber" required><br>
+                    <p2>Enter a number to add to the list:</p2><br>
+                    <input type="number" id="addNumber" name="addNumber" required><br>
+                    <input onclick="addToList(); calcuateValues('listOne')" type="button" value="Add to the List">
                     
                 </form>
             </div>
             <div class="myflexboxColumn2">
-                <p>List 1</p>
+                <p>Numbers in the List </p>
                 <table
                     id="listOne">
                 </table><br>
-                <input onclick="clearList('listOne')" type="button" value="Clear the List">
+                <input onclick="window.location.href=window.location.href" type="button" value="Clear the List">
                 
             </div>
             <div class="myflexboxColumn2">
-                <p>List 2</p>
+                <p>Calculated Values</p>
                 <table
                     id="listTwo">
+                    <tr>
+                        <th>Mean</th>
+                        <th>Median</th>
+                        <th>Mode</th>
+                        
+                       </tr>
                 </table><br>
-                <input onclick="clearList('listTwo')" type="button" value="Clear the List">
+                <input onclick="calcuateValues('listOne')" type="button" value="Calculate the Values">
+               
                     
             </div>
            
