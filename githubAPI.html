@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="githubAPI.css">
+        <script src="githubAPI.js"></script>
+
+        
+</head>
+    <body onload = "clearList(REPOForYou); getTheREPO()">
+        
+        <h1> Github REPO Finder </h1>
+        <p1>This page finds Github Repos</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <label for="githubAPI">Enter the Github REPO ID:</label>
+                    <input type="text" id="aText" name="aText" size="10" required><br> 
+                    <input onclick="clearList(REPOForYou); getTheREPO()" type="button" value="Get the REPOs">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>Repos:</h2>
+                <p id="REPOForYou"></p>
+                            
+            </div>
+            
+            
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>

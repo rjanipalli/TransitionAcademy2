@@ -93,7 +93,7 @@ function calcMedian(){
             var median = (parseInt(m1) + parseInt(m2))/2;
             }
         else {
-        var median = (nextRow.cells.item(0).innerHTML);
+        var median = (row.cells.item(0).innerHTML);
         
 
     } 

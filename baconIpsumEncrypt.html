@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="baconIpsumEncrypt.css">
+        <script src="baconIpsumEncrypt.js"></script>
+
+        
+</head>
+    <body>
+        
+        <h1> BaconIpsum API </h1>
+        <p1>This page gets the JSON from an API</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <label for="cars">Choose number of paragraphs:</label>
+                    <select type="number" id="aNumber" name="aNumber" size = "1">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                    <input onclick="getTheData()" type="button" value="Get the bacon">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>Data from BaconIpsum</h2>
+                <p id="jsonDataBacon"></p>
+                            
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>Split Data from BaconIpsum</h2>
+                <p id="splitDataBacon"></p>
+               
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>Encrypted Data from BaconIpsum</h2>
+                <p id="encryptDataBacon"></p>
+               
+            </div>
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>

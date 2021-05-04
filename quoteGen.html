@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="quoteGen.css">
+        <script src="quoteGen.js"></script>
+
+        
+</head>
+    <body>
+        
+        <h1> Quote Generator </h1>
+        <p1>This page generates quotes</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <label for="quotes">What Kind of quote you need:</label>
+                    <select type="text" id="aNumber" name="aNumber" size = "1">
+                      <option value="1">Small Quote</option>
+                      <option value="2">Medium Quote</option>
+                      <option value="3">Large Quote</option>
+                      
+                    </select>
+                    <input onclick="getTheQuote()" type="button" value="Get the Quote">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>Quote for you</h2>
+                <p id="quoteForYou"></p>
+                            
+            </div>
+            
+            
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>
