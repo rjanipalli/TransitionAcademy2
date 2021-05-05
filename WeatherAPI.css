@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+    /* Container for flexboxes */
+    .myflexboxRow2 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create four equal entries in myflexbox */
+    .myflexboxColumn2 {
+      flex: 25%;
+      padding: 10px;
+    }
+    
+    /* Media query - on screens that are 992px wide or less, go from four columns to two columns */
+    @media screen and (max-width: 200px) {
+      .myflexboxColumn2 {
+        flex: 10%;
+      }
+    }
+    
+    /* Media query - on screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 200px) {
+      .myflexboxRow2 {
+        flex-direction: column;
+      }
+    }
+  
+  
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+ 
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  color:green;
+}
+
+p {
+  font-weight: bolder;
+  color:green;
+}
+
+p1 {
+  font-weight: bolder;
+  color:green;
+  font:italic, bold;
+
+}

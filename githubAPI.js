@@ -21,11 +21,16 @@ async function getTheREPO(){
         var linkREPO ="";
         var link;
         for (var x in myREPO){
-            //link = myREPO[x].name;
+        //    link = myREPO[x].name;
+        //    var table = document.getElementById("REPOForYou");
+        //    var row = table.insertRow();
+        //    var cell1 = row.insertCell(0);
+        //    cell1.innerHTML = link; 
+            
             //linkREPO += myREPO[x].html_url;
-            //document.getElementById("REPOForYou").innerHTML = link.link(linkREPO);   
-             linkREPO += "<p><a href=" + myREPO[x].html_url + ">" + myREPO[x].name + "</a></p>";
-             document.getElementById("REPOForYou").innerHTML = linkREPO;
+           //document.getElementById("REPOForYou").innerHTML = link.link(linkREPO);   
+        linkREPO += "<p><a href=" + myREPO[x].html_url + ">" + myREPO[x].name + "</a></p>";
+        document.getElementById("REPOForYou").innerHTML = linkREPO;
             
         }
     } else {

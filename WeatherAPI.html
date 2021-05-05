@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="weatherAPI.css">
+        <script src="weatherAPI.js"></script>
+
+        
+</head>
+    <body>
+        
+        <h1> Check your Weather </h1>
+        <p1>BBQ outside or  Sit by the Fireplace?</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <label for="weatherAPI">Select the city</label>
+                    <select type="text" id="aCity" name="aCity" size="1" >
+                        <option value="BOU">Denver, Colorado</option>
+                        <option value="GJT">Grand Junction, Colorado</option>
+                        <option value="PUB">Pueblo, Colorado</option>
+                    <input onclick="getTheWeather()" type="button" value="Click to find out">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                
+                <h2>When?</h2>
+                <p id="WeatherForYou"></p>
+                            
+            </div>
+            
+            <div class="myflexboxColumn2">
+                <h2>Description</h2>
+                <p id="WeatherForYou2"></p>
+                            
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>BBQ or Fireplace?</h2>
+                <p id="WeatherForYou3"></p>
+                            
+            </div>
+                  
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>
