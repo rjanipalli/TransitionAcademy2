@@ -28,16 +28,41 @@
       }
     }
   
+    /* Container for flexboxes */
+    .myflexboxRow3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* Create four equal entries in myflexbox */
+    .myflexboxColumn3 {
+      flex: 25%;
+      padding: 10px;
+    }
+    
+    /* Media query - on screens that are 992px wide or less, go from four columns to two columns */
+    @media screen and (max-width: 100px) {
+      .myflexboxColumn3 {
+        flex: 20%;
+      }
+    }
+    
+    /* Media query - on screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 200px) {
+      .myflexboxRow3 {
+        flex-direction: column;
+      }
+    }
   
 
 input[type=text], select, textarea {
-  width: 50%;
-  padding: 12px;
+  width: 15%;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   resize: vertical;
 }
 body{
@@ -49,6 +74,7 @@ h1 {
   text-align: center;
   font-weight: bolder;
   color:green;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {

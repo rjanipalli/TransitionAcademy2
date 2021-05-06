@@ -12,29 +12,38 @@
 </head>
     <body>
         
-        <h1> Check your Weather </h1>
-        <p1>BBQ outside or  Sit by the Fireplace?</p1>
+        <h1> Activity Decider </h1>
+        <p1>BBQ outside or  Chill by the Fireplace?</p1>
         
 
         <div class="myflexboxRow2">
             <div class="myflexboxColumn2">
                 <form name="form1">
-                    <label for="weatherAPI">Select the city</label>
-                    <select type="text" id="aCity" name="aCity" size="1" >
+                    
+                    <p2>Select the City:</p2><br>
+                    <select type="text" id="aCity" name="aCity" size="1" ><br>
                         <option value="BOU">Denver, Colorado</option>
                         <option value="GJT">Grand Junction, Colorado</option>
-                        <option value="PUB">Pueblo, Colorado</option>
-                    <input onclick="getTheWeather()" type="button" value="Click to find out">
+                        <option value="PUB">Pueblo, Colorado</option><br>
+
+                    <input onclick="getTheWeather()" type="button" value="Click to find out"><br>
                     
                 </form>
             </div>
             <div class="myflexboxColumn2">
-                
-                <h2>When?</h2>
-                <p id="WeatherForYou"></p>
-                            
+               <!-- <h2>When?</h2>
+                <p>WeatherForYou</p>
+                -->
+                <table
+                    id="WeatherForYou">
+                    <tr>
+                        <th>When?</th>
+                        <th>Description</th>
+                        <th>BBQ or FirePlace</th>
+                    </tr>
+                </table><br>            
             </div>
-            
+           <!-- 
             <div class="myflexboxColumn2">
                 <h2>Description</h2>
                 <p id="WeatherForYou2"></p>
@@ -45,7 +54,7 @@
                 <p id="WeatherForYou3"></p>
                             
             </div>
-                  
+        -->     
            
         </div>
               
