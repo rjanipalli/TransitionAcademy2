@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "/C:/Users/rjanipalli/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/markdown-language-features/notebook/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "tsc: build - /C:/Users/rjanipalli/AppData/Local/Programs/Microsoft VS Code/resources/app/extensions/markdown-language-features/notebook/tsconfig.json"
+		}
+	]
+}

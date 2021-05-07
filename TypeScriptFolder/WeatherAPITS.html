@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Weather </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+
+    <link rel="stylesheet" href="weatherAPITS.css">
+    <script src="weatherAPITS.js"></script>
+
+
+</head>
+
+<body>
+
+    <h1> Activity Decider </h1>
+    <p1>BBQ outside or Chill by the Fireplace?</p1>
+
+
+    <div class="myflexboxRow2">
+        <div class="myflexboxColumn2">
+            <form name="form1">
+
+                <p2>Select the City:</p2><br>
+                <select onclick="getTheWeather()" type="text" id="aCity" name="aCity" size="1"><br>
+                    <option value="---">---</option>
+                    <option value="BOU">Denver, Colorado</option>
+                    <option value="GJT">Grand Junction, Colorado</option>
+                    <option value="PUB">Pueblo, Colorado</option><br>
+
+                    <input onclick="getTheWeather()" type="button" value="Click to find out"><br>
+
+            </form>
+        </div>
+        <div class="myflexboxColumn2">
+            <!-- <h2>When?</h2>
+                <p>WeatherForYou</p>
+                -->
+            <table class="table table-bordered", id="WeatherForYou">
+               <br>
+                <tr>
+                    <th>When?</th>
+                    <th>Description</th>
+                    <th>BBQ or FirePlace</th>
+                </tr>
+            </table><br>
+        </div>
+        <!-- 
+            <div class="myflexboxColumn2">
+                <h2>Description</h2>
+                <p id="WeatherForYou2"></p>
+                            
+            </div>
+            <div class="myflexboxColumn2">
+                <h2>BBQ or Fireplace?</h2>
+                <p id="WeatherForYou3"></p>
+                            
+            </div>
+        -->
+
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>

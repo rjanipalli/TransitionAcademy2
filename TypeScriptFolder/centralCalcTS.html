@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge 1 </title>
+    
+        <link rel="stylesheet" href="centralCalcTS.css">
+        <script src="centralCalcTS.js"></script>
+
+        
+</head>
+    <body>
+        
+        <h1> Mean Mode Median Calculator</h1>
+        <p1>This page calculates Mean, Mode & Median of given numbers for a range of number</p1>
+        
+
+        <div class="myflexboxRow2">
+            <div class="myflexboxColumn2">
+                <form name="form1">
+                    <p2>Enter Min Value:</p2><br>
+                    <input type="number" id="minNumber" name="minNumber" required><br>
+                    <p2>Enter Max Value:</p2><br>
+                    <input type="number" id="maxNumber" name="maxNumber" required><br>
+                    <p2>Enter a number to add to the list:</p2><br>
+                    <input type="number" id="addNumber" name="addNumber" required><br>
+                    <input onclick="addToList(); calcuateValues()" type="button" value="Add to the List">
+                    
+                </form>
+            </div>
+            <div class="myflexboxColumn2">
+                <p>Numbers in the List </p>
+                <table
+                    id="listOne">
+                </table><br>
+                <input onclick="window.location.href=window.location.href" type="button" value="Clear the List">
+                
+            </div>
+            <div class="myflexboxColumn2">
+                <p>Calculated Values</p>
+                <table
+                    id="listTwo">
+                    <tr>
+                        <th>Mean</th>
+                        <th>Median</th>
+                        <th>Mode</th>
+                        
+                       </tr>
+                </table><br>
+                <input onclick="calcuateValues()" type="button" value="Calculate the Values">
+               
+                    
+            </div>
+           
+        </div>
+              
+            
+           
+
+
+    </body>
+     
+ 
+</html>
