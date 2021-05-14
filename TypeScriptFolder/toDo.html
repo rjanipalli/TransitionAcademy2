@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Activity Planner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+
+    <link rel="stylesheet" href="toDo.css">
+   
+
+</head>
+
+<body>
+
+    
+
+
+    <div class="form-group">
+        <h1> What do you want to do Today</h1>
+    <p1>Add activity to the list and mark it as done when complete</p1>
+
+        <div class="activity">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-4">
+                <div class="activity-input">
+                    <span class="input-group-addon"><span class="glyphicon-pencil"></span></span>
+                    <input type="text" class="form-control" placeholder="New todo" id="newToDo">
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="activity-input">
+                    <span class="input-group-addon"><span class="glyphicon-tag"></span></span>
+                    <input type="text" class="form-control" placeholder="New description" id="newDescription">
+                </div>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <input type="button" id="addToDo" value=" Add New Activity" class="btn btn-info" />
+    </div> </br>
+    <h1 class="text-center"> Current Activity List</h1>
+    <div id="todoList"></div>
+
+    <script src="toDo.js"></script>
+
+
+
+
+</body>
+
+
+</html>
