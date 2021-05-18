@@ -1,0 +1,56 @@
+.top-nav-title-icon {
+  padding: 8px 4px 0 16px;
+  color: white;
+}
+
+.top-nav-link {
+  color: white;
+  font-size: 14px;
+}
+
+.top-nav-icon {
+  margin-top: 8px;
+  padding-right: 8px;
+}
+
+.top-nav-date {
+  font-size: 14px;
+}
+
+.top-link-social {
+  padding: 0 16px;
+  font-size: 14px;
+  color: #eaecf5;
+}
+
+.top-link-active {
+  color: rgb(171, 220, 224);
+  text-decoration: none;
+  padding-left: 6px;
+}
+
+.side-nav-link {
+  color: #455a64;
+}
+
+.side-link-social {
+  padding: 16px 0;
+}
+
+.side-link-active {
+  color: #008000;
+  font-weight: bold;
+}
+
+.side-menu-header {
+  padding: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-weight: 450;
+  background-color: #008000;
+}
+
+.side-nav-icon {
+  padding-right: 4px;
+}

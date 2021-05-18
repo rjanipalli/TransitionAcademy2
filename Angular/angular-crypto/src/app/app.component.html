@@ -1,0 +1,23 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<div *ngIf="cryptos">
+  <div id="crypto-container" *ngFor =" let crypto of objectKeys(cryptos)">
+    <span class="left">{{ crypto }}</span>
+    <span class="right">{{ cryptos[crypto].USD| currency }}</span>
+    
+  </div>
+</div>
+
+<div *ngIf="chart">
+  <canvas id="canvas">{{ chart }}</canvas>
+</div>
+ <!--  <div>
+    <app-crypto-chart></app-crypto-chart>
+</div> -->
