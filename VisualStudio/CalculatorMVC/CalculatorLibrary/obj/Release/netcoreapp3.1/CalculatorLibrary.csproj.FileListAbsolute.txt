@@ -1,0 +1,9 @@
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\bin\Release\netcoreapp3.1\CalculatorLibrary.deps.json
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\bin\Release\netcoreapp3.1\CalculatorLibrary.dll
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\bin\Release\netcoreapp3.1\CalculatorLibrary.pdb
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.csprojAssemblyReference.cache
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.AssemblyInfo.cs
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.dll
+C:\Transition Academy2\VisualStudio\Calculator\CalculatorLibrary\obj\Release\netcoreapp3.1\CalculatorLibrary.pdb

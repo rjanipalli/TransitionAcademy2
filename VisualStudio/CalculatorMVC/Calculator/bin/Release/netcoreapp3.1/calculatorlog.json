@@ -1,0 +1,10 @@
+{
+  "Operations": [
+    {
+      "Operand1": 34.0,
+      "Operand2": 56.0,
+      "Operation": "Add",
+      "Result": 90.0
+    }
+  ]
+}

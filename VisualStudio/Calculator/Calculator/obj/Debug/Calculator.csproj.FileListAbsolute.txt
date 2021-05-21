@@ -1,0 +1,7 @@
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Transition Academy2\VisualStudio\Calculator\Calculator\obj\Debug\Calculator.pdb

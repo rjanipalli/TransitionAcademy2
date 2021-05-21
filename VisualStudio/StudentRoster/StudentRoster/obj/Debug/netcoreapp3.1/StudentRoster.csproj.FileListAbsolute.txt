@@ -1,0 +1,13 @@
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.exe
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.deps.json
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.runtimeconfig.json
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.runtimeconfig.dev.json
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.dll
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\bin\Debug\netcoreapp3.1\StudentRoster.pdb
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.csprojAssemblyReference.cache
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.AssemblyInfoInputs.cache
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.AssemblyInfo.cs
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.csproj.CoreCompileInputs.cache
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.dll
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.pdb
+C:\Transition Academy2\VisualStudio\StudentRoster\StudentRoster\obj\Debug\netcoreapp3.1\StudentRoster.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AqLgnlepy9FQ9Aa10qkNyE4aOjPAj0ffmzQ25mn1l69DQ9UZI435GqbpbuZaqfwcCW8mOVPB5oBgJSkdKJEtGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Transition Academy2\\VisualStudio\\CalculatorMVC\\Calculator\\CalculatorMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rjanipalli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

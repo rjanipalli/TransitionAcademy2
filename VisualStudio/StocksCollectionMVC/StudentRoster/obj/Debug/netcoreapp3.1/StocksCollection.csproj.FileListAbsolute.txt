@@ -1,0 +1,13 @@
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.exe
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.deps.json
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.runtimeconfig.json
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.runtimeconfig.dev.json
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.dll
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\bin\Debug\netcoreapp3.1\StocksCollection.pdb
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.csprojAssemblyReference.cache
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.AssemblyInfoInputs.cache
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.AssemblyInfo.cs
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.csproj.CoreCompileInputs.cache
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.dll
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.pdb
+C:\Transition Academy2\VisualStudio\StocksCollection\StudentRoster\obj\Debug\netcoreapp3.1\StocksCollection.genruntimeconfig.cache
